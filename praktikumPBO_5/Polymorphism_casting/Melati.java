@@ -1,6 +1,6 @@
 package Polymorphism_casting;
 public class Melati extends Bunga {
-    private boolean malamHari;
+    public boolean malamHari;
     
     public Melati(String nama, String warna, boolean malamHari) {
         super(nama, warna);
