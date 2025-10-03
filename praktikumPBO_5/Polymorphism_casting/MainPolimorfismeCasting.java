@@ -2,7 +2,6 @@ package Polymorphism_casting;
 
 public class MainPolimorfismeCasting {
     public static void main(String[] args) {
-        
         System.out.println("=== UPCASTING : ===");
         Bunga bunga1 = new Mawar("Mawar Merah", "Merah", 15);
         Bunga bunga2 = new Melati("Melati Putih", "Putih", true);
@@ -19,12 +18,10 @@ public class MainPolimorfismeCasting {
             Mawar mawar = (Mawar) bunga1;
             mawar.tampilkanDuri(); 
         }
-        
         if (bunga2 instanceof Melati) {
             Melati melati = (Melati) bunga2;
             melati.tampilkanWaktuMekar(); 
         }
-        
         if (bunga3 instanceof Anggrek) {
             Anggrek anggrek = (Anggrek) bunga3;
             anggrek.tampilkanJenisBatang(); 
