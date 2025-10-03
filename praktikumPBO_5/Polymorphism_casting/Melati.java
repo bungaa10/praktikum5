@@ -17,7 +17,6 @@ public class Melati extends Bunga {
         System.out.println("Melati memiliki harum yang khas dan biasa digunakan dalam upacara adat.");
     }
     
-    // Method khusus untuk Melati
     public void tampilkanWaktuMekar() {
         System.out.println("Melati mekar pada waktu: " + (malamHari ? "Malam Hari" : "Siang Hari"));
     }
