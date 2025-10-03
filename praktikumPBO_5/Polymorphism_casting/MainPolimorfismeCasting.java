@@ -7,11 +7,11 @@ public class MainPolimorfismeCasting {
         Bunga bunga1 = new Mawar("Mawar Merah", "Merah", 15);
         Bunga bunga2 = new Melati("Melati Putih", "Putih", true);
         Bunga bunga3 = new Anggrek("Anggrek Bulan", "Ungu", "Epifit");
-        bunga1.tampilkanInfo();
+        bunga1.tampilkanBunga();
         bunga1.harum();
-        bunga2.tampilkanInfo();
+        bunga2.tampilkanBunga();
         bunga2.harum();
-        bunga3.tampilkanInfo();
+        bunga3.tampilkanBunga();
         bunga3.harum();
         System.out.println("\n=== DOWNCASTING ===");
         

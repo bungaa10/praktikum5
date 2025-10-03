@@ -8,7 +8,7 @@ public class Bunga {
         this.warna = warna;
     }
     
-    public void tampilkanInfo() {
+    public void tampilkanBunga() {
         System.out.println("Ini adalah bunga " + nama + " dengan warna " + warna);
     }
     

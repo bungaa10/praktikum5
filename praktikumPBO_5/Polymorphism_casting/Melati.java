@@ -8,7 +8,7 @@ public class Melati extends Bunga {
     }
     
     @Override
-    public void tampilkanInfo() {
+    public void tampilkanBunga() {
         System.out.println("Ini adalah bunga Melati dengan warna " + warna + 
                           (malamHari ? " dan mekar di malam hari." : " dan mekar di siang hari."));
     }

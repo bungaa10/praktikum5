@@ -9,7 +9,7 @@ public class Mawar extends Bunga {
     }
     
     @Override
-    public void tampilkanInfo() {
+    public void tampilkanBunga() {
         System.out.println("Ini adalah bunga Mawar dengan warna " + warna + 
                           " dan memiliki " + jumlahDuri + " duri.");
     }

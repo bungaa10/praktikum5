@@ -9,7 +9,7 @@ public class Anggrek extends Bunga {
     }
     
     @Override
-    public void tampilkanInfo() {
+    public void tampilkanBunga() {
         System.out.println("Ini adalah bunga Anggrek dengan warna " + warna + 
                           " dan memiliki batang " + jenisBatang + ".");
     }
