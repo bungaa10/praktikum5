@@ -1,7 +1,7 @@
 package Polymorphism_casting;
 
 public class Mawar extends Bunga {
-    private int jumlahDuri;
+    public int jumlahDuri;
     
     public Mawar(String nama, String warna, int jumlahDuri) {
         super(nama, warna);
