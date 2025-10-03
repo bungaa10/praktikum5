@@ -1,14 +1,14 @@
-class Bunga {
+public class Bunga {
     String nama;
 
     public Bunga(String nama) {
         this.nama = nama;
     }
-    void tumbuh() {
+    public void tumbuh() {
         System.out.println(nama + " sedang tumbuh.");
     }
 
-    void tumbuh(int hari) {
+    public void tumbuh(int hari) {
         System.out.println(nama + " tumbuh setelah " + hari + " hari.");
     }
 }
