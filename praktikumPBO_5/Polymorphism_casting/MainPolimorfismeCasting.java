@@ -3,7 +3,7 @@ package Polymorphism_casting;
 public class MainPolimorfismeCasting {
     public static void main(String[] args) {
         
-        System.out.println("=== INFORMASI BUNGA : ===");
+        System.out.println("=== UPCASTING : ===");
         Bunga bunga1 = new Mawar("Mawar Merah", "Merah", 15);
         Bunga bunga2 = new Melati("Melati Putih", "Putih", true);
         Bunga bunga3 = new Anggrek("Anggrek Bulan", "Ungu", "Epifit");
