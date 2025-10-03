@@ -2,10 +2,10 @@ package Abstraction_interface;
 
 public class InterfaceExample {
     interface Hewan {
-        void suara();  
+        public void suara();  
     }
 
     interface Peliharaan {
-        void namaPemilik(String nama);
+        public void namaPemilik(String nama);
     }
 }

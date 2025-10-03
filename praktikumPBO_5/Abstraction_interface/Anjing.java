@@ -1,6 +1,6 @@
 package Abstraction_interface;
 
-class Anjing implements Hewan, Peliharaan {
+public class Anjing implements Hewan, Peliharaan {
     @Override
     public void suara() {
         System.out.println("Anjing menggonggong: Guk! Guk!");

@@ -12,8 +12,6 @@ public class Kucing implements Hewan, Peliharaan {
     public void namaPemilik(String nama) {
         System.out.println("Kucing ini milik " + nama);
     }
-
-    // Method khusus Kucing
     public void cakar() {
         System.out.println("Kucing mencakar dengan kukunya.");
     }
