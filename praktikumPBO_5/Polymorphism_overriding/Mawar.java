@@ -5,7 +5,7 @@ public class Mawar extends Bunga {
     }
 
     @Override
-    void bermekaran() {
+    public void bermekaran() {
         System.out.println(nama + " bermekaran dengan kelopak merah yang cantik.");
     }
 }
